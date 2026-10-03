@@ -3,7 +3,7 @@ net.neoforged.fml.startup.DataClient
 
 # NeoForge Run-Type Program Arguments
 --assetIndex
-30
+32
 --assetsDir
 "C:\\Users\\Fabio Henrique\\.gradle\\caches\\neoformruntime\\assets"
 
