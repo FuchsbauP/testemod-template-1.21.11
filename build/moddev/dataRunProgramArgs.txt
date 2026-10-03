@@ -3,21 +3,15 @@ net.neoforged.fml.startup.DataClient
 
 # NeoForge Run-Type Program Arguments
 --assetIndex
-29
+30
 --assetsDir
 "C:\\Users\\Fabio Henrique\\.gradle\\caches\\neoformruntime\\assets"
---fml.mcVersion
-1.21.11
---fml.neoForgeVersion
-21.11.45
---fml.neoFormVersion
-20251209.172050
 
 # User Supplied Program Arguments
 --mod
 testmod
 --all
 --output
-E:\\SOURCE\\testmod-template-1.21.11\\src\\generated\\resources
+E:\\SOURCE\\testemod-template-1.21.11\\src\\generated\\resources
 --existing
-E:\\SOURCE\\testmod-template-1.21.11\\src\\main\\resources
+E:\\SOURCE\\testemod-template-1.21.11\\src\\main\\resources

@@ -11,6 +11,7 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
+import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
@@ -57,8 +58,8 @@ public class ModRecipeProvider extends RecipeProvider {
 
         List<ItemLike> AURIC_SMELTABLES = List.of(ModItems.RAW_AURIC, ModBlocks.AURIC_ORE, ModBlocks.AURIC_DEEPSLATE_ORE);
 
-        oreSmelting(AURIC_SMELTABLES, RecipeCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 200, "auric");
-        oreBlasting(AURIC_SMELTABLES, RecipeCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 100, "auric");
+        oreSmelting(AURIC_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 200, "auric");
+        oreBlasting(AURIC_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 100, "auric");
 
         shaped(RecipeCategory.MISC, ModItems.AURIC_AXE.get())
                 .pattern("AA ")
@@ -107,11 +108,11 @@ public class ModRecipeProvider extends RecipeProvider {
     }
 
     @Override
-    protected <T extends AbstractCookingRecipe > void oreCooking(RecipeSerializer<T> serializer, AbstractCookingRecipe.Factory<T> recipeFactory,
-                                                                 List<ItemLike> ingredients, RecipeCategory category, ItemLike result, float experience, int cookingTime, String group, String suffix)
+    protected <T extends AbstractCookingRecipe > void oreCooking(AbstractCookingRecipe.Factory<T> recipeFactory,
+                                                                 List<ItemLike> ingredients, RecipeCategory category, CookingBookCategory cookingBookCategory, ItemLike result, float experience, int cookingTime, String group, String suffix)
     {
         for (ItemLike itemlike : ingredients) {
-            SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), category, result, experience, cookingTime, serializer, recipeFactory).group(group).unlockedBy(getHasName(itemlike), this.has(itemlike))
+            SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), category, cookingBookCategory, result, experience, cookingTime, recipeFactory).group(group).unlockedBy(getHasName(itemlike), this.has(itemlike))
                     .save(this.output, TestMod.MODID + ":" + getItemName(result) + suffix + "_" + getItemName(itemlike));
         }
     }

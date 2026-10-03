@@ -3,3 +3,7 @@
 /gamemode creative
 /time set day
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/give @a minecraft:anvil
+/gamemode creative

@@ -2,11 +2,5 @@
 net.neoforged.fml.startup.GameTestServer
 
 # NeoForge Run-Type Program Arguments
---fml.mcVersion
-1.21.11
---fml.neoForgeVersion
-21.11.45
---fml.neoFormVersion
-20251209.172050
 
 # User Supplied Program Arguments
