@@ -1,0 +1,4 @@
+// 1.21.11	2026-10-01T23:13:44.3946815	Loot Tables
+aa52e6329db63dad69be7784223d737288c31d11 data/testmod/loot_table/blocks/auric_block.json
+f51549e4ff29e988b68b6122bce8cd522ad1989a data/testmod/loot_table/blocks/auric_deepslate_ore.json
+1ab92633f9bd729dbd2d158ca51ef7fd12e33a69 data/testmod/loot_table/blocks/auric_ore.json

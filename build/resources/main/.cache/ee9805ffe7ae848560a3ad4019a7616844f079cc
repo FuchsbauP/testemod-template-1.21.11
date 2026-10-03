@@ -1,0 +1,7 @@
+// 1.21.11	2026-10-02T22:55:50.5015043	Tags for minecraft:item mod id testmod
+c3e33e4f9f8545e1bf081c6abf50dd6ec741b0a0 data/minecraft/tags/item/axes.json
+c0badcd5c7d943047391991555a2928206f4d8ac data/minecraft/tags/item/hoes.json
+aebe8a83ad6e546537cf466781246de62a9d3d5f data/minecraft/tags/item/pickaxes.json
+de1c47dfe91edfa6674ae33dcb0a08bde3545ffd data/minecraft/tags/item/shovels.json
+77253faf129e9370afbf4dda035591c9bf874a70 data/minecraft/tags/item/swords.json
+c24ec90d617b5999e5b5ad5100e36f67f696fce0 data/testmod/tags/item/auric_repairables.json

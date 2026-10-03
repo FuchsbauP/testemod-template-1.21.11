@@ -1,0 +1,24 @@
+{
+  "item.testmod.raw_auric": "Raw Auric",
+  "item.testmod.auric_shard": "Auric Shard",
+
+  "item.testmod.auric_axe": "Auric Axe",
+  "item.testmod.auric_hoe": "Auric Hoe",
+  "item.testmod.auric_pickaxe": "Auric Pickaxe",
+  "item.testmod.auric_shovel": "Auric Shovel",
+  "item.testmod.auric_sword": "Auric Sword",
+
+  "block.testmod.auric_ore": "Auric Ore",
+  "block.testmod.auric_deepslate_ore": "Auric Deepslate Ore",
+  "block.testmod.auric_block": "Block of Auric",
+
+  "creativetab.testmod.test_mod": "Test Mod Tab",
+
+  "testmod.configuration.title": "Test Mod Configs",
+  "testmod.configuration.section.testmod.common.toml": "Test Mod Configs",
+  "testmod.configuration.section.testmod.common.toml.title": "Test Mod Configs",
+  "testmod.configuration.items": "Item List",
+  "testmod.configuration.logDirtBlock": "Log Dirt Block",
+  "testmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "testmod.configuration.magicNumber": "Magic Number"
+}
