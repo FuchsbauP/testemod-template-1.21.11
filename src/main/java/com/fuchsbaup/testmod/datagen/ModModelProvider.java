@@ -2,6 +2,7 @@ package com.fuchsbaup.testmod.datagen;
 
 import com.fuchsbaup.testmod.TestMod;
 import com.fuchsbaup.testmod.block.ModBlocks;
+import com.fuchsbaup.testmod.item.ModArmorMaterials;
 import com.fuchsbaup.testmod.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -21,15 +22,24 @@ public class ModModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
+        //CUSTOM AURIC RAW ORE AND GEM
         itemModels.generateFlatItem(ModItems.AURIC_SHARD.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.RAW_AURIC.get(), ModelTemplates.FLAT_ITEM);
 
+        //CUSTOM AURIC TOOLS
         itemModels.generateFlatItem(ModItems.AURIC_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_PICKAXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
 
+        //CUSTOM AURIC ARMORS
+        itemModels.generateTrimmableItem(ModItems.AURIC_HELMET.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_CHESTPLATE.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_LEGGINGS.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_BOOTS.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
+        //CUSTOM AURIC BLOCKS
         blockModels.createTrivialCube(ModBlocks.AURIC_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_DEEPSLATE_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_BLOCK.get());

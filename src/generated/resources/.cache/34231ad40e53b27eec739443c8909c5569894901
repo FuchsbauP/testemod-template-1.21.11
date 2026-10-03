@@ -1,4 +1,4 @@
-// 1.21.11	2026-10-02T22:55:50.5005072	Tags for minecraft:block mod id testmod
+// 26.1.2	2026-10-03T12:02:49.6581936	Tags for minecraft:block mod id testmod
 0a1dbacd0f3b443a12022dcf56d02625ed9d5481 data/minecraft/tags/block/mineable/pickaxe.json
 60bc68ac16b9abbaa3650f9db23197784e91940c data/minecraft/tags/block/needs_diamond_tool.json
 318dbb4a5d69b135b423e888dca17657dd9b4882 data/minecraft/tags/block/needs_iron_tool.json

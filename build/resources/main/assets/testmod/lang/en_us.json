@@ -8,6 +8,11 @@
   "item.testmod.auric_shovel": "Auric Shovel",
   "item.testmod.auric_sword": "Auric Sword",
 
+  "item.testmod.auric_helmet": "Auric Helmet",
+  "item.testmod.auric_chestplate": "Auric Chestplate",
+  "item.testmod.auric_leggings": "Auric Leggings",
+  "item.testmod.auric_boots": "Auric Boots",
+
   "block.testmod.auric_ore": "Auric Ore",
   "block.testmod.auric_deepslate_ore": "Auric Deepslate Ore",
   "block.testmod.auric_block": "Block of Auric",

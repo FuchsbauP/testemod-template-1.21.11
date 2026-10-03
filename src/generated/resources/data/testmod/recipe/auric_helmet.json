@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "testmod:auric_shard"
+  },
+  "pattern": [
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "id": "testmod:auric_helmet"
+  }
+}

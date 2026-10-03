@@ -29,6 +29,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AURIC_SHOVEL);
                         output.accept(ModItems.AURIC_SWORD);
 
+                        output.accept(ModItems.AURIC_HELMET);
+                        output.accept(ModItems.AURIC_CHESTPLATE);
+                        output.accept(ModItems.AURIC_LEGGINGS);
+                        output.accept(ModItems.AURIC_BOOTS);
+
                         output.accept(ModBlocks.AURIC_ORE);
                         output.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
                         output.accept(ModBlocks.AURIC_BLOCK);

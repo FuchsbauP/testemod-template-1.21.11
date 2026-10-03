@@ -43,6 +43,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildRecipes() {
+        //CUSTOM AURIC BLOCKS RECIPES
         shaped(RecipeCategory.MISC, ModBlocks.AURIC_BLOCK.get())
                 .pattern("AAA")
                 .pattern("AAA")
@@ -56,11 +57,13 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModBlocks.AURIC_BLOCK.get()), has(ModBlocks.AURIC_BLOCK.get()))
                 .save(this.output);
 
+        //CUSTOM AURIC SMELTABLES
         List<ItemLike> AURIC_SMELTABLES = List.of(ModItems.RAW_AURIC, ModBlocks.AURIC_ORE, ModBlocks.AURIC_DEEPSLATE_ORE);
 
         oreSmelting(AURIC_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 200, "auric");
         oreBlasting(AURIC_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 100, "auric");
 
+        //CUSTOM AURIC TOLLS RECIPES
         shaped(RecipeCategory.MISC, ModItems.AURIC_AXE.get())
                 .pattern("AA ")
                 .pattern("AS ")
@@ -103,6 +106,37 @@ public class ModRecipeProvider extends RecipeProvider {
                 .pattern(" S ")
                 .define('A', ModItems.AURIC_SHARD.get())
                 .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get()))
+                .save(this.output);
+
+        //CUSTOM AURIC ARMOR RECIPES
+        shaped(RecipeCategory.COMBAT, ModItems.AURIC_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get()))
+                .save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.AURIC_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get()))
+                .save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.AURIC_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get()))
+                .save(this.output);
+
+        shaped(RecipeCategory.COMBAT, ModItems.AURIC_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.AURIC_SHARD.get())
                 .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get()))
                 .save(this.output);
     }
