@@ -31,6 +31,14 @@ public class ModBlocks {
             registerBlock("auric_deepslate_ore", properties -> new DropExperienceBlock(UniformInt.of(3, 5), properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final DeferredBlock<Block> AURIC_NETHER_ORE =
+            registerBlock("auric_nether_ore", properties -> new DropExperienceBlock(UniformInt.of(3, 5), properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHER_ORE)));
+
+    public static final DeferredBlock<Block> AURIC_END_ORE =
+            registerBlock("auric_end_ore", properties -> new DropExperienceBlock(UniformInt.of(3, 5), properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     private static <T extends  Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function){
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn);

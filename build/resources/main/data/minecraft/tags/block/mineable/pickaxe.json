@@ -2,6 +2,8 @@
   "values": [
     "testmod:auric_ore",
     "testmod:auric_deepslate_ore",
+    "testmod:auric_nether_ore",
+    "testmod:auric_end_ore",
     "testmod:auric_block"
   ]
 }

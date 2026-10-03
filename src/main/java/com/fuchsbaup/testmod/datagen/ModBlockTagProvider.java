@@ -21,11 +21,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.AURIC_ORE.getKey())
                 .add(ModBlocks.AURIC_DEEPSLATE_ORE.getKey())
+                .add(ModBlocks.AURIC_NETHER_ORE.getKey())
+                .add(ModBlocks.AURIC_END_ORE.getKey())
                 .add(ModBlocks.AURIC_BLOCK.getKey());
 
         tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.AURIC_ORE.getKey());
+        tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.AURIC_NETHER_ORE.getKey());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.AURIC_DEEPSLATE_ORE.getKey());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ModBlocks.AURIC_END_ORE.getKey());
 
         tag(ModTags.Blocks.NEEDS_AURIC_TOOL)
                 .addTags(BlockTags.NEEDS_IRON_TOOL)

@@ -1,4 +1,6 @@
-// 26.1.2	2026-10-03T12:02:49.659522	Loot Tables
-aa52e6329db63dad69be7784223d737288c31d11 data/testmod/loot_table/blocks/auric_block.json
-f51549e4ff29e988b68b6122bce8cd522ad1989a data/testmod/loot_table/blocks/auric_deepslate_ore.json
-1ab92633f9bd729dbd2d158ca51ef7fd12e33a69 data/testmod/loot_table/blocks/auric_ore.json
+// 26.2	2026-10-03T15:23:46.7494254	Loot Tables
+c4ab39704e1221ec7d9bd0d408e45f79f7a86e81 data/testmod/loot_table/blocks/auric_block.json
+96f02f284fa81eba57119ea310bfd21e2c481f10 data/testmod/loot_table/blocks/auric_deepslate_ore.json
+217b22c888f28421b9d45b76a0023fd0ca9f69bc data/testmod/loot_table/blocks/auric_end_ore.json
+cfe77b46d23ba3c38b3a1189bebbf033083e58a1 data/testmod/loot_table/blocks/auric_nether_ore.json
+76999eff0da863c192925fa2e53b8f120d8b259a data/testmod/loot_table/blocks/auric_ore.json

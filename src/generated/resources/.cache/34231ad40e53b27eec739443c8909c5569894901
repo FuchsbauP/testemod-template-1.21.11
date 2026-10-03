@@ -1,6 +1,6 @@
-// 26.1.2	2026-10-03T12:02:49.6581936	Tags for minecraft:block mod id testmod
-0a1dbacd0f3b443a12022dcf56d02625ed9d5481 data/minecraft/tags/block/mineable/pickaxe.json
-60bc68ac16b9abbaa3650f9db23197784e91940c data/minecraft/tags/block/needs_diamond_tool.json
-318dbb4a5d69b135b423e888dca17657dd9b4882 data/minecraft/tags/block/needs_iron_tool.json
+// 26.2	2026-10-03T15:23:46.7494254	Tags for minecraft:block mod id testmod
+f01476d3786c967c184d77a35562e798f68f6b70 data/minecraft/tags/block/mineable/pickaxe.json
+78271a4c5ee2564b4f74d9fb3218da4eb5875a3b data/minecraft/tags/block/needs_diamond_tool.json
+5695487f72c058ff26922bea5fb09d3ae616b14b data/minecraft/tags/block/needs_iron_tool.json
 d6c9178720346bafa2ec26b166d320e607f50196 data/testmod/tags/block/incorrect_for_auric_tool.json
 64879da2311da95f03774b100d50c1a7fbee274b data/testmod/tags/block/needs_auric_tool.json

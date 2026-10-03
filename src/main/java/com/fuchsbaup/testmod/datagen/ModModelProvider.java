@@ -42,6 +42,8 @@ public class ModModelProvider extends ModelProvider {
         //CUSTOM AURIC BLOCKS
         blockModels.createTrivialCube(ModBlocks.AURIC_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_DEEPSLATE_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.AURIC_NETHER_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.AURIC_END_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_BLOCK.get());
     }
 

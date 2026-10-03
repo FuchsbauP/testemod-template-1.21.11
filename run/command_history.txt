@@ -7,3 +7,10 @@
 /gamemode survival
 /give @a minecraft:anvil
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set minecraft:day
+/gamerule advance_time false
+/time set minecraft:day
