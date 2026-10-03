@@ -18,7 +18,7 @@ graphicsPreset:"custom"
 prioritizeChunkUpdates:1
 fullscreen:false
 exclusiveFullscreen:false
-gamma:0.5
+gamma:1.0
 guiScale:0
 maxAnisotropyBit:1
 textureFiltering:1

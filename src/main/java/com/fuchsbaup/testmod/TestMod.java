@@ -89,10 +89,30 @@ public class TestMod {
             event.accept(ModItems.AURIC_SHARD);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.AURIC_BLOCK);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.AURIC_ORE);
             event.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
-            event.accept(ModBlocks.AURIC_BLOCK);
+            event.accept(ModBlocks.AURIC_NETHER_ORE);
+            event.accept(ModBlocks.AURIC_END_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT){
+            event.accept(ModItems.AURIC_HELMET);
+            event.accept(ModItems.AURIC_CHESTPLATE);
+            event.accept(ModItems.AURIC_LEGGINGS);
+            event.accept(ModItems.AURIC_BOOTS);
+            event.accept(ModItems.AURIC_SWORD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.AURIC_AXE);
+            event.accept(ModItems.AURIC_HOE);
+            event.accept(ModItems.AURIC_PICKAXE);
+            event.accept(ModItems.AURIC_SHOVEL);
         }
     }
 

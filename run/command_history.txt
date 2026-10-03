@@ -14,3 +14,9 @@
 /time set minecraft:day
 /gamerule advance_time false
 /time set minecraft:day
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative

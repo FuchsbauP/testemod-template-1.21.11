@@ -1,89 +1,44 @@
 {
   "stats": {
-    "minecraft:mined": {
-      "minecraft:dark_oak_log": 4,
-      "testmod:auric_nether_ore": 2,
-      "testmod:auric_end_ore": 1,
-      "testmod:auric_block": 6,
-      "testmod:auric_ore": 4,
-      "minecraft:stone": 7,
-      "testmod:auric_deepslate_ore": 2
-    },
     "minecraft:killed": {
-      "minecraft:creeper": 1
+      "minecraft:ender_dragon": 1
     },
     "minecraft:dropped": {
-      "minecraft:netherite_pickaxe": 1,
-      "testmod:auric_shard": 1,
-      "testmod:auric_axe": 3,
-      "testmod:auric_pickaxe": 1,
-      "testmod:auric_sword": 1,
-      "testmod:auric_deepslate_ore": 1
+      "minecraft:obsidian": 1,
+      "minecraft:flint_and_steel": 1,
+      "minecraft:nether_gold_ore": 2,
+      "testmod:auric_nether_ore": 1,
+      "minecraft:ender_eye": 1
     },
     "minecraft:picked_up": {
-      "testmod:raw_auric": 33,
-      "testmod:auric_block": 6,
-      "minecraft:netherite_pickaxe": 1,
-      "minecraft:cobblestone": 7,
-      "testmod:auric_pickaxe": 1,
-      "testmod:auric_shard": 1,
-      "testmod:auric_axe": 3,
-      "testmod:auric_sword": 1,
-      "testmod:auric_deepslate_ore": 1,
-      "minecraft:dark_oak_log": 4
-    },
-    "minecraft:used": {
-      "testmod:auric_end_ore": 4,
-      "testmod:auric_ore": 6,
-      "testmod:auric_pickaxe": 13,
-      "testmod:auric_sword": 4,
-      "testmod:auric_boots": 1,
-      "minecraft:iron_pickaxe": 2,
-      "testmod:auric_block": 14,
-      "testmod:auric_axe": 4,
-      "minecraft:stone": 1,
-      "minecraft:diamond_pickaxe": 4,
-      "minecraft:crafting_table": 1,
-      "minecraft:anvil": 1,
-      "minecraft:netherite_pickaxe": 6,
-      "minecraft:furnace": 3,
-      "testmod:auric_deepslate_ore": 6,
-      "minecraft:stone_pickaxe": 2,
-      "minecraft:blast_furnace": 3,
-      "testmod:auric_nether_ore": 2
+      "minecraft:ender_pearl": 1,
+      "minecraft:ender_eye": 2
     },
     "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 3,
-      "minecraft:time_since_rest": 42926,
-      "minecraft:walk_one_cm": 39879,
-      "minecraft:leave_game": 9,
-      "minecraft:walk_under_water_one_cm": 3169,
+      "minecraft:time_since_rest": 42233,
+      "minecraft:walk_one_cm": 7165,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 3977,
       "minecraft:mob_kills": 1,
-      "minecraft:play_time": 30174,
-      "minecraft:damage_dealt": 200,
-      "minecraft:jump": 52,
-      "minecraft:time_since_death": 30174,
-      "minecraft:drop": 8,
-      "minecraft:interact_with_furnace": 23,
-      "minecraft:sprint_one_cm": 4971,
-      "minecraft:fall_one_cm": 225,
-      "minecraft:total_world_time": 30715,
-      "minecraft:swim_one_cm": 2265,
-      "minecraft:fly_one_cm": 10082,
-      "minecraft:interact_with_anvil": 1,
-      "minecraft:walk_on_water_one_cm": 290,
-      "minecraft:crouch_one_cm": 418,
-      "minecraft:sneak_time": 884,
-      "minecraft:interact_with_blast_furnace": 18
+      "minecraft:play_time": 23080,
+      "minecraft:jump": 17,
+      "minecraft:time_since_death": 22945,
+      "minecraft:drop": 6,
+      "minecraft:sprint_one_cm": 6174,
+      "minecraft:total_world_time": 23271,
+      "minecraft:fly_one_cm": 589283,
+      "minecraft:interact_with_anvil": 3,
+      "minecraft:walk_on_water_one_cm": 417,
+      "minecraft:crouch_one_cm": 249,
+      "minecraft:sneak_time": 1749
     },
-    "minecraft:crafted": {
-      "testmod:auric_axe": 1,
-      "testmod:auric_hoe": 1,
-      "testmod:auric_pickaxe": 1,
-      "testmod:auric_shovel": 1,
-      "testmod:auric_sword": 1,
-      "minecraft:air": 0,
-      "testmod:auric_shard": 768
+    "minecraft:used": {
+      "minecraft:flint_and_steel": 1,
+      "minecraft:ender_eye": 42,
+      "minecraft:netherite_sword": 47,
+      "minecraft:anvil": 1,
+      "minecraft:netherite_axe": 14,
+      "minecraft:obsidian": 13
     }
   },
   "DataVersion": 4903
