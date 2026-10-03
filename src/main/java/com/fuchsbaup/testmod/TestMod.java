@@ -1,6 +1,7 @@
 package com.fuchsbaup.testmod;
 
 import com.fuchsbaup.testmod.block.ModBlocks;
+import com.fuchsbaup.testmod.data.ModDataAttachments;
 import com.fuchsbaup.testmod.item.ModCreativeModeTabs;
 import com.fuchsbaup.testmod.item.ModItems;
 import com.sun.jna.platform.win32.WinNT;
@@ -53,6 +54,8 @@ public class TestMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataAttachments.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (TestMod) to respond directly to events.
